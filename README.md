@@ -16,10 +16,11 @@ To get a specific version, replace `master` with the version tag:
 curl https://raw.githubusercontent.com/seanmcp/tl.css/v1.0.0/tl.css > tl.css
 ```
 
-## Versioning
+## Releases
 
-To release a new version,
+To release a new version:
 
-1. Push all changes to `master`
-2. Create a tag: `git tag v#.#.#`
-3. Push tags: `git push origin --tags`
+1. Run `npm run build`
+2. Commit and push all changes to `master`
+3. Create a tag: `git tag v#.#.#`
+4. Push tags: `git push origin --tags`
