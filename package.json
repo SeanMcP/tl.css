@@ -1,0 +1,21 @@
+{
+  "name": "tl.css",
+  "version": "1.0.1",
+  "description": "💄 Lipstick on a llama",
+  "scripts": {
+    "prebuild": "node-sass tl.scss > temp.css",
+    "build": "postcss --use autoprefixer -b 'last 2 versions' < temp.css | postcss --use cssnano > tl.css",
+    "postbuild": "rm -f temp.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanMcP/tl.css.git"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.4",
+    "cssnano": "^4.1.10",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.1.10",
+    "postcss-cli": "^8.3.0"
+  }
+}
