@@ -4,7 +4,7 @@
 
 ## Use
 
-To get the latest, curl and pipe the contents to your project:
+To get the latest, curl and direct the contents to a file in your project:
 
 ```sh
 curl https://raw.githubusercontent.com/seanmcp/tl.css/master/tl.css > tl.css
