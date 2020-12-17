@@ -1,5 +1,5 @@
 /* Toollama styles */
-/* !v1.0.1 */
+/* !v1.0.2 */
 
 :root {
   --primary: hsl(264, 64%, 48%);
@@ -35,8 +35,8 @@
   --off-black: var(--gray950);
   --off-white: var(--gray050);
 
-  --faint: hsla(0, 0%, 0%, 16%);
-  --very-faint: hsla(0, 0%, 0%, 4%);
+  --faint: hsla(0, 0%, 0%, 0.16);
+  --very-faint: hsla(0, 0%, 0%, 0.04);
 }
 
 @font-face {
@@ -128,7 +128,7 @@ select {
 input,
 select,
 textarea {
-  border: var(--border-width) solid hsla(0, 0%, 0%, 16%);
+  border: var(--border-width) solid hsla(0, 0%, 0%, 0.16);
   border-radius: var(--border-radius);
   padding: 0.5rem;
 }
@@ -164,7 +164,7 @@ button.subtle {
 
 button.outline:hover,
 button.subtle:hover {
-  background-color: hsla(264, 8%, 8%, 8%);
+  background-color: hsla(264, 8%, 8%, 0.08);
 }
 
 button.secondary {

@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2020-12-17
+
+### Fixed
+- Sass was incorrectly converting `hsla` with percent alpha values to hex. Changed to decimal values.
+
 ## [1.0.1] - 2020-11-28
 
 ### Added
@@ -14,5 +19,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2020-11-28
 
-[Unreleased]: https://github.com/seanmcp/tl.css/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/seanmcp/tl.css/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/seanmcp/tl.css/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/seanmcp/tl.css/compare/v1.0.0...v1.0.1
